@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>your name| Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <h2 class="logo">MyPortfolio</h2>
+
+        <div class="nav-links">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <button id="menuBtn">☰</button>
+
+    </nav>
+
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="hello">Hello, I'm</p>
+
+            <h1>harshitha</h1>
+
+            <h2>
+                I'm a <span id="typing"></span>
+            </h2>
+
+            <p class="description">
+                I create modern, responsive and interactive
+                websites using HTML, CSS and JavaScript.
+            </p>
+
+            <div class="buttons">
+
+                <a href="#projects" class="btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn outline">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="profile-container">
+
+            <div class="profile-circle">
+                👨‍💻
+            </div>
+
+            <div class="circle circle1"></div>
+            <div class="circle circle2"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section reveal">
+
+        <h2 class="section-title">
+            About <span>Me</span>
+        </h2>
+
+        <div class="about">
+
+            <div class="about-image">
+                👨‍💻
+            </div>
+
+            <div class="about-text">
+
+                <h3>Web Developer</h3>
+
+                <p>
+                    I am a passionate web developer who enjoys
+                    creating clean and user-friendly websites.
+                </p>
+
+                <p>
+                    I love learning new technologies and turning
+                    ideas into real-world projects.
+                </p>
+
+                <a href="#contact" class="btn">
+                    Hire Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section skills-section reveal">
+
+        <h2 class="section-title">
+            My <span>Skills</span>
+        </h2>
+
+        <div class="skills">
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar html"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+                    <span>CSS</span>
+                    <span>85%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar css"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+                    <span>JavaScript</span>
+                    <span>75%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar javascript"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+                    <span>Git</span>
+                    <span>65%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar git"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section reveal">
+
+        <h2 class="section-title">
+            My <span>Projects</span>
+        </h2>
+
+        <div class="projects">
+
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🛒
+                </div>
+
+                <h3>Shopping Website</h3>
+
+                <p>
+                    A responsive shopping website created using
+                    HTML, CSS and JavaScript.
+                </p>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    ☁️
+                </div>
+
+                <h3>Weather App</h3>
+
+                <p>
+                    A weather application that displays weather
+                    information using an API.
+                </p>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    📝
+                </div>
+
+                <h3>Todo App</h3>
+
+                <p>
+                    A task management application using
+                    JavaScript and local storage.
+                </p>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section reveal">
+
+        <h2 class="section-title">
+            Contact <span>Me</span>
+        </h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Let's Work Together</h3>
+
+                <p>
+                    Have a project or job opportunity?
+                    Send me a message.
+                </p>
+
+                <p>📧 yourname@email.com</p>
+
+                <p>📱 +91 98765 43210</p>
+
+                <p>📍 Bangalore, India</p>
+
+            </div>
+
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Your Message"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Your Name</p>
+
+        <div>
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
